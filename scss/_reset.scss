@@ -5,12 +5,22 @@
 }
 
 body {
+  font-family: 'Cinzel', serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: blue;
+  background-color: $light-color;
   color: $dark-color;
 }
 
 a {
   text-decoration: none;
+  color: $primary-color;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
 }

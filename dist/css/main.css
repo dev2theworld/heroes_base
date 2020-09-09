@@ -4,4 +4,25 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #343a40;
+}
+
+a {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
