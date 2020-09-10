@@ -1,0 +1,20 @@
+.landing {
+  position: relative;
+  background: url('/img/bg-logo.jpg') no-repeat center center/cover;
+  height: 100vh;
+
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: $light-color;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+}
