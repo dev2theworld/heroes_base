@@ -21,6 +21,11 @@
   }
   &-light {
     @include set-background($light-color);
+    
+  }
+  &-light-darken {
+    @include set-background(darken($light-color, 10%));
+    
   }
   &-dark {
     @include set-background($dark-color);
