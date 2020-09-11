@@ -153,9 +153,18 @@ img {
   margin-top: 8rem;
 }
 
+.inner-pages a {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.inner-pages a:hover {
+  color: #5e7c58;
+}
+
 .bg-primary {
   background-color: #75996e;
-  color: #343a40;
+  color: #f4f4f4;
 }
 
 .bg-light {
@@ -175,7 +184,7 @@ img {
 
 .bg-danger {
   background-color: #dc3545;
-  color: #343a40;
+  color: #f4f4f4;
 }
 
 .bg-white {
@@ -223,6 +232,27 @@ img {
 
 .btn-primary {
   background-color: #75996e;
+  color: #f4f4f4;
+}
+
+.alert {
+  padding: 0.5rem 0;
+  margin: 2rem 0;
+  opacity: 0.9;
+  width: 50%;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #343a40;
+}
+
+.alert-success {
+  background-color: #28a745;
+  color: #f4f4f4;
+}
+
+.alert-danger {
+  background-color: #dc3545;
   color: #f4f4f4;
 }
 

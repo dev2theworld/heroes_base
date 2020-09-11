@@ -3,6 +3,15 @@
   margin: auto;
   padding: 0 2rem;
   margin-top: 8rem;
+
+  a {
+    margin-left: 5px;
+    font-weight: bold;
+
+    &:hover {
+      color: darken($color: $primary-color, $amount: 10%);
+    }
+  }
 }
 
 // Backgrounds
@@ -69,6 +78,25 @@
   &-primary {
     background-color: $primary-color;
     color: $light-color;
+  }
+}
+
+// Alerts
+.alert {
+  padding: 0.5rem 0;
+  margin: 2rem 0;
+  opacity: 0.9;
+  width: 50%;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: $light-color;
+  color: $dark-color;
+
+  &-success {
+    @include set-background($success-color);
+  }
+  &-danger {
+    @include set-background($danger-color);
   }
 }
 
