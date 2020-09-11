@@ -14,6 +14,28 @@
   }
 }
 
+.inner-pages-profile {
+  max-width: $max-width;
+  margin: auto;
+  padding: 0 2rem;
+  margin-top: 6rem;
+
+  a {
+    margin-left: 5px;
+    font-weight: bold;
+
+    &:hover {
+      color: darken($color: $primary-color, $amount: 10%);
+    }
+  }
+}
+
+.line {
+  height: 1.5px;
+  background: $light-color;
+  margin: 1rem 0;
+}
+
 // Backgrounds
 .bg {
   &-primary {
@@ -21,9 +43,11 @@
   }
   &-light {
     @include set-background($light-color);
-    
   }
-  &-light-darken {
+  &-light-darken-5 {
+    @include set-background(darken($light-color, 5%));
+  }
+  &-light-darken-10 {
     @include set-background(darken($light-color, 10%));
     
   }
@@ -74,6 +98,12 @@
   font-size: 1rem;
   margin-right: 2.5rem;
   outline: none;
+
+  &-profile {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+  }
 
   &:hover {
     opacity: 0.5;

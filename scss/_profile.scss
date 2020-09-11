@@ -1,0 +1,41 @@
+.profile-grid {
+  display: grid;
+  grid-template-areas: 
+  'top about about'
+  'top exp exp';
+
+  .profile-top {
+    grid-area: top;
+
+    img {
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      line-height: 3rem;
+    }
+
+    .lead {
+      margin-bottom: -0.5rem;
+    }
+  }
+  .profile-about {
+    grid-area: about;
+
+    .text-primary {
+      margin-top: -0.5rem;
+    }
+    
+    .skills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: -1rem;
+    }
+  }
+  .profile-exp {
+    grid-area: exp;
+    padding: 1rem 2rem;
+  }
+}
