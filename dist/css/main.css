@@ -126,7 +126,7 @@ img {
 }
 
 .navbar h1 {
-  margin-left: 440px;
+  margin-left: 430px;
   font-size: 1.8rem;
 }
 
@@ -365,8 +365,22 @@ img {
   line-height: 2rem;
 }
 
+.profiles .profile h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.profiles .profile #skills {
+  margin-top: 3rem;
+}
+
+.profiles .profile small p {
+  margin-bottom: -0.25rem;
+}
+
 .profiles .profile a {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .profile-grid {
