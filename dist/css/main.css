@@ -499,4 +499,34 @@ img {
 .inner-pages-about .buttons {
   margin-top: 2rem;
 }
+
+.posts .post {
+  padding: 2rem;
+}
+
+.posts .post-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.posts .post-top h6 {
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  margin-right: 0.5rem;
+}
+
+.posts .post-top .new {
+  background-color: #75996e;
+  color: #f4f4f4;
+}
+
+.posts .post h2 {
+  margin-bottom: 1rem;
+}
+
+.posts .post button {
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
