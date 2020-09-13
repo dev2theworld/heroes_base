@@ -233,7 +233,7 @@ img {
 .large {
   font-size: 3rem;
   line-height: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .lead {
@@ -446,5 +446,15 @@ img {
   -ms-grid-column-span: 2;
   grid-area: exp;
   padding: 1rem 2rem;
+}
+
+.inner-pages #top {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid #75996e;
+}
+
+.inner-pages h2 {
+  color: #75996e;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
