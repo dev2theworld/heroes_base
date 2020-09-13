@@ -1,12 +1,24 @@
-.inner-pages {
-
+.inner-pages-about {
+  
   #top {
-    margin-bottom: 4rem;
-    border-bottom: 1px solid $primary-color;
+    margin-bottom: 3rem;
+    border-bottom: 1px dotted $primary-color;
+  }
+  
+  h1 {
+    margin: 3rem 0 4.5rem;
   }
 
   h2 {
     color: $primary-color;
     font-weight: bold;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .buttons {
+    margin-top: 2rem;
   }
 }

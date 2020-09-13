@@ -162,6 +162,32 @@ img {
   color: #5e7c58;
 }
 
+.inner-pages-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 3rem 2rem 3rem;
+  margin-top: 5rem;
+}
+
+.inner-pages-about a {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.inner-pages-about a:hover {
+  color: #5e7c58;
+}
+
 .inner-pages-profile {
   max-width: 1100px;
   margin: auto;
@@ -270,7 +296,11 @@ img {
 
 .btn-primary {
   background-color: #75996e;
-  color: #f4f4f4;
+  color: #343a40;
+}
+
+.btn-secondary {
+  border: 1px #343a40 solid;
 }
 
 .alert {
@@ -448,13 +478,25 @@ img {
   padding: 1rem 2rem;
 }
 
-.inner-pages #top {
-  margin-bottom: 4rem;
-  border-bottom: 1px solid #75996e;
+.inner-pages-about #top {
+  margin-bottom: 3rem;
+  border-bottom: 1px dotted #75996e;
 }
 
-.inner-pages h2 {
+.inner-pages-about h1 {
+  margin: 3rem 0 4.5rem;
+}
+
+.inner-pages-about h2 {
   color: #75996e;
   font-weight: bold;
+}
+
+.inner-pages-about p {
+  text-align: center;
+}
+
+.inner-pages-about .buttons {
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
