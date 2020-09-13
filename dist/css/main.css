@@ -358,11 +358,18 @@ img {
 .profiles .profile {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 4fr 2fr;
-      grid-template-columns: 2fr 4fr 2fr;
+  -ms-grid-columns: 2fr 6fr;
+      grid-template-columns: 2fr 6fr;
   gap: 2rem;
   padding: 1rem;
   line-height: 2rem;
+}
+
+.profiles .profile-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 2fr;
+      grid-template-columns: 4fr 2fr;
 }
 
 .profiles .profile h2 {
