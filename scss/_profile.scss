@@ -9,29 +9,29 @@
     grid-area: left;
 
     img {
-      margin-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
     }
 
     h1 {
       line-height: 2.5rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
     }
 
     .lead {
-      margin-bottom: -0.5rem;
+      margin-bottom: 1rem;
     }
 
     .message {
       display: flex;
       align-items: center;
-      margin-top: 0.5rem;
+      margin-top: 5rem;
 
       a {
         color: $light-color;
       }
 
       i.fas {
-        margin-left: 1rem;
+        margin-left: 2rem;
 
         &:hover {
           opacity: 0.7;
@@ -52,10 +52,18 @@
       align-items: center;
       text-align: center;
       margin-bottom: -1rem;
+
+      i.fas {
+        color: $primary-color;
+      }
     }
   }
   .profile-exp {
     grid-area: exp;
     padding: 1rem 2rem;
+
+    .experience {
+      margin-top: 1rem;
+    }
   }
 }
