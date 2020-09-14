@@ -3,10 +3,11 @@
   grid-template-areas: 
   'left about about'
   'left exp exp';
-  height: 85vh;
+  
 
   .profile-left {
     grid-area: left;
+    width: 330px;
 
     img {
       margin-bottom: 1.5rem;
@@ -41,6 +42,7 @@
   }
   .profile-about {
     grid-area: about;
+    width: 850px;
 
     .text-primary {
       margin-top: -0.5rem;
