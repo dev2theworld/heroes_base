@@ -50,8 +50,7 @@
 }
 
 .line {
-  height: 1.5px;
-  background: $light-color;
+  border-bottom: 1px dotted $primary-color;
   margin: 1rem 0;
 }
 

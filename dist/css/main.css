@@ -205,8 +205,7 @@ img {
 }
 
 .line {
-  height: 1.5px;
-  background: #f4f4f4;
+  border-bottom: 1px dotted #75996e;
   margin: 1rem 0;
 }
 
@@ -423,26 +422,50 @@ img {
 .profile-grid {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'top about about' 'top exp exp';
+      grid-template-areas: 'left about about' 'left exp exp';
+  height: 85vh;
 }
 
-.profile-grid .profile-top {
+.profile-grid .profile-left {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
-  grid-area: top;
+  grid-area: left;
 }
 
-.profile-grid .profile-top img {
-  margin-bottom: 1rem;
+.profile-grid .profile-left img {
+  margin-bottom: 0.5rem;
 }
 
-.profile-grid .profile-top h1 {
-  line-height: 3rem;
+.profile-grid .profile-left h1 {
+  line-height: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.profile-grid .profile-top .lead {
+.profile-grid .profile-left .lead {
   margin-bottom: -0.5rem;
+}
+
+.profile-grid .profile-left .message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0.5rem;
+}
+
+.profile-grid .profile-left .message a {
+  color: #f4f4f4;
+}
+
+.profile-grid .profile-left .message i.fas {
+  margin-left: 1rem;
+}
+
+.profile-grid .profile-left .message i.fas:hover {
+  opacity: 0.7;
 }
 
 .profile-grid .profile-about {

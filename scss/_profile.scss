@@ -1,22 +1,42 @@
 .profile-grid {
   display: grid;
   grid-template-areas: 
-  'top about about'
-  'top exp exp';
+  'left about about'
+  'left exp exp';
+  height: 85vh;
 
-  .profile-top {
-    grid-area: top;
+  .profile-left {
+    grid-area: left;
 
     img {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
 
     h1 {
-      line-height: 3rem;
+      line-height: 2.5rem;
+      margin-bottom: 0.5rem;
     }
 
     .lead {
       margin-bottom: -0.5rem;
+    }
+
+    .message {
+      display: flex;
+      align-items: center;
+      margin-top: 0.5rem;
+
+      a {
+        color: $light-color;
+      }
+
+      i.fas {
+        margin-left: 1rem;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
     }
   }
   .profile-about {
