@@ -16,9 +16,43 @@
   .landing-inner p {
     margin-bottom: 1rem;
   }
+
+  .inner-pages {
+    
+    h1 {
+      padding-top: 2rem;
+    }
+
+    .profile-text {
+      justify-content: center;
+    }
+
+    .profile-skills {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 768px) {
+
+  .inner-pages {
+  
+    .profile {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        max-width: 576px;
+        margin: auto;
+      }
+
+      &-text {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    }
+  }
 
   .inner-pages-about {
     
@@ -45,6 +79,10 @@
 }
 
 @media (max-width: 1440px) {
+
+  .inner-pages {
+    padding-top: 2rem;
+  }
 
   .inner-pages-about {
     margin-top: 8rem;
