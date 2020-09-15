@@ -185,7 +185,7 @@ img {
 }
 
 .inner-pages-about a:hover {
-  color: #5e7c58;
+  opacity: 0.9;
 }
 
 .inner-pages-profile {
@@ -581,6 +581,12 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+  .inner-pages-about h1 {
+    padding-top: 3rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .navbar {
     display: block;
@@ -593,6 +599,18 @@ img {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 1440px) {
+  .inner-pages-about {
+    margin-top: 8rem;
+    padding: 2rem 2rem 4rem;
+  }
+  .inner-pages-about h1 {
+    margin: 0 0 2rem;
+    line-height: 3rem;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */

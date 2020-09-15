@@ -28,7 +28,7 @@
     font-weight: bold;
 
     &:hover {
-      color: darken($color: $primary-color, $amount: 10%);
+      opacity: 0.9;
     }
   }
 }
