@@ -590,6 +590,10 @@ img {
   .inner-pages .profile-skills {
     display: none;
   }
+  .blog-title {
+    line-height: 3rem;
+    margin-top: 0.5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -619,6 +623,9 @@ img {
   }
   .inner-pages-about h1 {
     padding-top: 3rem;
+  }
+  .blog-title {
+    margin-top: 0.5rem;
   }
 }
 
